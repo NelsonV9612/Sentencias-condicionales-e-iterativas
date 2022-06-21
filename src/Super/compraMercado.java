@@ -3,12 +3,13 @@ package Super;
 import java.util.Scanner;
 
 public class compraMercado {
-    public static void main(String[] args) {
-        Scanner read= new Scanner(System.in);
+
+    public  static void  totalFactura(){
+        Scanner read=new Scanner(System.in);
+        double total=0;
+        int medioPago;
         String producto="";
         double precio;
-        int medioPago;
-        double total=0;
         System.out.println("---------------Bienvenido-----------");
         System.out.println("Ingrese el nombre del producto: ");
         producto=read.nextLine().toLowerCase();
@@ -35,7 +36,6 @@ public class compraMercado {
                     break;
             }
         }while (medioPago<1 || medioPago>3);
-
     }
 
 
