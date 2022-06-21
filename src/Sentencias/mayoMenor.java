@@ -12,8 +12,12 @@ public class mayoMenor {
         num1=read.nextDouble();
         System.out.println("Ingrese el segundo numero a comparar: ");
         num2=read.nextDouble();
+        comNum(num1,num2);
+
+    }
+    public  static  void comNum(double num1, double num2){
         if (num1>num2){
-            System.out.println("El número "+num1+" es mayor que "+num2);
+             System.out.println("El número "+num1+" es mayor que "+num2);
         }else {
             System.out.println("El número "+num2+" es mayor que "+num1);
         }
