@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class notasAlumno {
 
-    public  static  void  notasAlumno(){
+    public  static  void notaAlumno(){
             Scanner read= new Scanner(System.in);
             String nombreAlum="";
             double nota1;
