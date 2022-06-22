@@ -36,6 +36,7 @@ public class compraMercado {
                     break;
             }
         }while (medioPago<1 || medioPago>3);
+
     }
 
 

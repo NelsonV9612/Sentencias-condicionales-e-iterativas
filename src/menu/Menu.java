@@ -13,13 +13,14 @@ public class Menu {
     public static void main(String[] args) {
         Scanner read= new Scanner(System.in);
         int opcion;
+        boolean salida=true;
         System.out.println("------------Bienvenido---------------");
-        do {
+        while (salida) {
             System.out.println("Ingrese el número de la operacion que desea realizar: ");
             System.out.println("1.Programa número mayor o menor\n2.Programa colegio\n3.Programa supermercado\n4.Programa repetir frase" +
                     "\n5.Programa conteo de números\n6.Programa de triangulos\n7.Salir");
-            opcion=read.nextInt();
-            switch (opcion){
+            opcion = read.nextInt();
+            switch (opcion) {
                 case 1:
                     comNum();
                     break;
@@ -34,17 +35,20 @@ public class Menu {
                     break;
                 case 5:
                     conteoNumeros();
-                    break;
+
                 case 6:
                     triangulos();
                     break;
                 case 7:
                     System.out.println("Adios!");
+                    salida=false;
                     break;
+
                 default:
                     System.out.println("Ingresó una opción incorrecta");
             }
-        }while (opcion<1 || opcion>6);
+        }
+
 
     }
 }
