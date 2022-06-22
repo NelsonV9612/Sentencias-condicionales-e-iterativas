@@ -1,4 +1,4 @@
-package numeros;
+package menu.numeros;
 
 public class Conteo {
     public static void conteoNumeros(){

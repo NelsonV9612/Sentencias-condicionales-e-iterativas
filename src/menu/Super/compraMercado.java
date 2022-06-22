@@ -1,4 +1,4 @@
-package Super;
+package menu.Super;
 
 import java.util.Scanner;
 

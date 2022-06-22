@@ -1,6 +1,4 @@
-package repetirfrase;
-
-import java.util.Scanner;
+package menu.repetirfrase;
 
 public class Frase {
     public  static  void repetirFrase(){

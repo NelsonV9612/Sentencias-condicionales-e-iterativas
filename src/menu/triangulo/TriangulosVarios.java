@@ -1,4 +1,4 @@
-package triangulo;
+package menu.triangulo;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class TriangulosVarios {
         Scanner read=new Scanner(System.in);
         int alto;
         System.out.println("----------------Bienvenido------------");
-        System.out.println("Ingrese el alto del triangulo: ");
+        System.out.println("Ingrese el alto del menu.triangulo: ");
         alto=read.nextInt();
         for (int i = 0; i < alto; i++) {
             for (int j = 0; j<=i; j++) {

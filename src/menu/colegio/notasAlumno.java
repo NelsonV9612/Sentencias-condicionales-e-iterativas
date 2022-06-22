@@ -1,4 +1,4 @@
-package colegio;
+package menu.colegio;
 
 import java.util.Scanner;
 

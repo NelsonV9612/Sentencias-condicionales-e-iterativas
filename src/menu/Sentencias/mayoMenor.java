@@ -1,4 +1,4 @@
-package Sentencias;
+package menu.Sentencias;
 
 import java.util.Scanner;
 
