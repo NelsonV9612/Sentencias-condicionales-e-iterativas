@@ -3,7 +3,8 @@ package triangulo;
 import java.util.Scanner;
 
 public class TriangulosVarios {
-    public static void main(String[] args) {
+    
+    public static void triangulos(){
         Scanner read=new Scanner(System.in);
         int alto;
         System.out.println("----------------Bienvenido------------");
@@ -32,6 +33,5 @@ public class TriangulosVarios {
             }
             System.out.println("");
         }
-
     }
 }
